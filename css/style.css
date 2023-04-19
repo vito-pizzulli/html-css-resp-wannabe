@@ -155,17 +155,14 @@ img {
         margin-bottom: 5rem;
     }
 
-    .lessons .col:last-of-type {
+    .lessons .col:last-of-type,
+    .steps .col:last-of-type {
         margin-bottom: 1rem;
     }
 
     .steps .col {
         width: 100%;
         margin-bottom: 5rem;
-    }
-
-    .steps .col:last-of-type {
-        margin-bottom: 1rem;
     }
 
     .why-us .col-left,
