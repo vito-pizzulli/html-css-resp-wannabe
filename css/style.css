@@ -168,19 +168,19 @@ img {
     }
 
     h1 {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     h3 {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     p {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .lessons .col img,
@@ -188,8 +188,7 @@ img {
         height: 230px;
     }
 
-    header,
-    section {
-        padding: 0 1rem;
+    .container {
+        padding: 0 2rem;
     }
 }
