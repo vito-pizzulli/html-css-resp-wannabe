@@ -145,17 +145,50 @@ img {
         width: 100%;
     }
 
-    .lessons .col:first-of-type {
-        margin-bottom: 4rem;
+    .lessons .col {
+        margin-bottom: 5rem;
+    }
+
+    .lessons .col:last-of-type {
+        margin-bottom: 1rem;
     }
 
     .steps .col {
         width: 100%;
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
     }
 
     .steps .col:last-of-type {
+        margin-bottom: 1rem;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
         width: 100%;
-        margin-bottom: 0;
+    }
+
+    .why-us .col-right {
+        margin-top: 5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .lessons .col img,
+    .steps .col img {
+        height: 250px;
     }
 }
