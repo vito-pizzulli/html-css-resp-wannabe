@@ -127,15 +127,8 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/* Bonus Responsive - from 768px to 1160px */
-@media screen and (min-width: 768px) and (max-width: 1160px) {
-    .container {
-        width: 100%;
-    }
-}
-
-/* Tablet Responsive - from 0px to 768px */
- @media screen and (max-width: 768px) {
+/* Tablet + Bonus Responsive - from 0px to 1160px */
+@media screen and (max-width: 1160px) {
     .container {
         width: 100%;
     }
@@ -175,23 +168,28 @@ img {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     h3 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     p {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     .lessons .col img,
     .steps .col img {
-        height: 250px;
+        height: 230px;
+    }
+
+    header,
+    section {
+        padding: 0 1rem;
     }
 }
