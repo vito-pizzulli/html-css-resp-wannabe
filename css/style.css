@@ -130,7 +130,21 @@ img {
 
 /* Tablet Responsive - from 0px to 768px */
  @media screen and (max-width: 768px) {
-    div.container {
+    .container {
         width: 100%;
     }
+}
+
+/* Mobile Responsive - from 0px to 480px */
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col:first-of-type {
+        margin-bottom: 5rem;
 }
