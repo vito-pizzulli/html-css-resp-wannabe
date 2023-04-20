@@ -140,31 +140,17 @@ img {
         flex-wrap: wrap;
     }
 
-    .lessons .col {
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
         width: 100%;
-    }
-
-    .lessons .col {
         margin-bottom: 5rem;
     }
 
     .lessons .col:last-of-type,
     .steps .col:last-of-type {
         margin-bottom: 1rem;
-    }
-
-    .steps .col {
-        width: 100%;
-        margin-bottom: 5rem;
-    }
-
-    .why-us .col-left,
-    .why-us .col-right {
-        width: 100%;
-    }
-
-    .why-us .col-right {
-        margin-top: 5rem;
     }
 
     h1 {
@@ -190,5 +176,18 @@ img {
 
     .container {
         padding: 0 2rem;
+    }
+
+    .steps,
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .why-us .container {
+        background-color: #222222;
+    }
+
+    .why-us h2 {
+        padding-top: 3rem;
     }
 }
